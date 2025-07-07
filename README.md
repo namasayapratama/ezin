@@ -83,3 +83,6 @@ composer dump-autoload
 **Catatan**:  
 - Untuk production, gunakan `--no-dev` pada composer install
 - Pastikan file `.env` tidak di-commit ke repository
+- Notifikasi WA membutuhkan langganan API WA
+- key pada setting WA adalah token.secret (gabungan token dan secret) penyedia API lain mungkin hanya membutuhkan token saja.
+  
