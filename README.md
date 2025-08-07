@@ -22,10 +22,10 @@ php artisan key:generate
 
 <div class="alert alert-warning">
 <strong>⚠️ Penting:</strong> Edit file <code>.env</code> dengan konfigurasi:
-- Database credentials
-- Mail server settings
--    Untuk mengatur server SMTP Gmail, Anda perlu memasukkan informasi berikut di pengaturan aplikasi email Anda: Server SMTP: smtp.gmail.com, Port: 587 (TLS) atau 465 (SSL), Nama Pengguna: Alamat email Gmail Anda, Kata Sandi: Kata sandi Gmail Anda, dan pastikan untuk mengaktifkan otentikasi. Gunakan app passwordnya jika memungkinkan : https://support.google.com/mail/answer/185833?hl=id
-- Konfigurasi lainnya
+1) Database credentials
+2) Mail server settings
+3) Konfigurasi lainnya. 
+    Untuk mengatur server SMTP Gmail, Anda perlu memasukkan informasi berikut di pengaturan aplikasi email Anda: Server SMTP: smtp.gmail.com, Port: 587 (TLS) atau 465 (SSL), Nama Pengguna: Alamat email Gmail Anda, Kata Sandi: Kata sandi Gmail Anda, dan pastikan untuk mengaktifkan otentikasi. Gunakan app passwordnya jika memungkinkan : https://support.google.com/mail/answer/185833?hl=id
 </div>
 
 ## 📦 3. Install Dependencies
