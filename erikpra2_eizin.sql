@@ -243,7 +243,7 @@ INSERT INTO `settings` (`id`, `key`, `value`, `created_at`, `updated_at`) VALUES
 (3, 'mail_host', 'mail.e-zin.net' , NULL, NULL),
 (4, 'mail_port', '587', NULL, NULL),
 (5, 'mail_username', 'app@e-zin.net', NULL, NULL),
-(6, 'mail_password', 'erikkasep', NULL, NULL),
+(6, 'mail_password', 'ErikK4sep!' , NULL, NULL),
 (7, 'mail_encryption', 'ssl', NULL, NULL),
 (8, 'mail_from_address', 'app@e-zin.net , NULL, NULL),
 (9, 'mail_from_name', 'eZin-4pp', NULL, '2025-05-21 14:22:53'),
