@@ -24,6 +24,7 @@ php artisan key:generate
 <strong>⚠️ Penting:</strong> Edit file <code>.env</code> dengan konfigurasi:
 - Database credentials
 - Mail server settings
+    Untuk mengatur server SMTP Gmail, Anda perlu memasukkan informasi berikut di pengaturan aplikasi email Anda: Server SMTP: smtp.gmail.com, Port: 587 (TLS) atau 465 (SSL), Nama Pengguna: Alamat email Gmail Anda, Kata Sandi: Kata sandi Gmail Anda, dan pastikan untuk mengaktifkan otentikasi. Gunakan app passwordnya jika memungkinkan : https://support.google.com/mail/answer/185833?hl=id
 - Konfigurasi lainnya
 </div>
 
@@ -81,8 +82,7 @@ composer dump-autoload
 ---
 
 **Catatan**:  
-- Untuk production, gunakan `--no-dev` pada composer install
-- Pastikan file `.env` tidak di-commit ke repository
+- Untuk production, gunakan `--no-dev` pada composer instal
 - Notifikasi WA membutuhkan langganan API WA
 - key pada setting WA adalah token.secret (gabungan token dan secret) penyedia API lain mungkin hanya membutuhkan token saja.
   
